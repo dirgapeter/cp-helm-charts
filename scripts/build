@@ -9,4 +9,4 @@ helm dependency update $ROOTDIR
 helm package $ROOTDIR --destination $ROOTDIR
 ls $ROOTDIR/sub-charts | xargs -I % helm dependency update $ROOTDIR/sub-charts/%
 helm package $ROOTDIR/sub-charts/* --destination $ROOTDIR
-helm repo index --url gitlab://aeroplan/helm-charts:master $ROOTDIR
+helm repo index --url https://raw.githubusercontent.com/dirgapeter/cp-helm-charts/master $ROOTDIR
