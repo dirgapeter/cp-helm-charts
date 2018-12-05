@@ -19,6 +19,9 @@
 .project
 .idea/
 *.tmproj
-# Images and archives
-*.png
-*.tgz
+scripts/
+.gitlab*
+sub-charts/
+screenshots/
+examples/
+grafana-dashboard/

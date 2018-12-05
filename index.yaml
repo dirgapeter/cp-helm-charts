@@ -3,11 +3,125 @@ entries:
   cp-helm-charts:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2018-08-29T23:32:13.474374653-04:00
+    created: 2018-12-05T15:07:03.037687+01:00
     description: A Helm chart for Confluent Open Source
-    digest: e61b6a52b157fb99bbf631566d82464b6136e55990603ff668b79b32fcc17029
+    digest: 7bd61a870c1a19841c9d789c2af3247e039d78f71520e248da4d2b41357dc740
     name: cp-helm-charts
     urls:
-    - cp-helm-charts-0.1.0.tgz
+    - gitlab://aeroplan/helm-charts:master/cp-helm-charts-0.1.0.tgz
     version: 0.1.0
-generated: 2018-08-29T23:32:13.414664359-04:00
+  cp-kafka:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.038958+01:00
+    description: A Helm chart for Confluent Kafka on Kubernetes
+    digest: 96ae0afdae767fdd74efd221b1741d7334777813e5415a4ac857b52a2d01336d
+    name: cp-kafka
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-kafka-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.042584+01:00
+    description: A Helm chart for Confluent Kafka on Kubernetes
+    digest: 4673db2b7023698e00995be06fb3d85837a882ccb4718f5af925e1b2b7893b95
+    name: cp-kafka
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-kafka-0.1.0.tgz
+    version: 0.1.0
+  cp-kafka-connect:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.039714+01:00
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: ef3bfcafc54ba4af807c988868543c932dc4be0a2129dad9267adedf1db1c890
+    name: cp-kafka-connect
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-kafka-connect-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.04357+01:00
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: 39400d66e5bf98a268c3f8b2639895a87197494bce965f96b842db9d06c2047e
+    name: cp-kafka-connect
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-kafka-connect-0.1.0.tgz
+    version: 0.1.0
+  cp-kafka-rest:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.040286+01:00
+    description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
+    digest: a75c37072545783079ed6690ca4499ba618dac9dea744cc1978b264857aafe22
+    name: cp-kafka-rest
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-kafka-rest-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.044597+01:00
+    description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
+    digest: fe6183d5d85d8a8279b471a7c1fe6164aaaac64686707ee5ce527d2b5176abf3
+    name: cp-kafka-rest
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-kafka-rest-0.1.0.tgz
+    version: 0.1.0
+  cp-ksql-server:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.040782+01:00
+    description: A Helm chart for Confluent KSQL Server on Kubernetes
+    digest: 9d200a375a2785312be7e2d88014719875151f2479a9751e1bbfbabd4785e81d
+    name: cp-ksql-server
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-ksql-server-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.045211+01:00
+    description: A Helm chart for Confluent KSQL Server on Kubernetes
+    digest: f9876a862cfd64f7bd2ca67c702e8b3b86c44df9a2307a938ea94522cf573291
+    name: cp-ksql-server
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-ksql-server-0.1.0.tgz
+    version: 0.1.0
+  cp-schema-registry:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.0412+01:00
+    description: A Helm chart for Confluent Schema Registry on Kubernetes
+    digest: 7523bc709387bb7643f55e64a1c57613716a8103ace413c1a5fcbebaf8ec68a1
+    name: cp-schema-registry
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-schema-registry-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.045594+01:00
+    description: A Helm chart for Confluent Schema Registry on Kubernetes
+    digest: fa1163fab880c65bbf8b231dee0f42560da18a75706456bc85439c2874d048ce
+    name: cp-schema-registry
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-schema-registry-0.1.0.tgz
+    version: 0.1.0
+  cp-zookeeper:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.041704+01:00
+    description: A Helm chart for Confluent Zookeeper on Kubernetes
+    digest: 9fc585712e9d12c9edde7a4f08ad92ccaa6572e7abf27694a599cffaef0404d9
+    name: cp-zookeeper
+    urls:
+    - gitlab://aeroplan/helm-charts:master/cp-zookeeper-0.1.0.tgz
+    version: 0.1.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2018-12-05T15:07:03.046056+01:00
+    description: A Helm chart for Confluent Zookeeper on Kubernetes
+    digest: b40a7050cca97ea67773a5b0938ee38a093b55608f6e9b830ff58c51aab658d3
+    name: cp-zookeeper
+    urls:
+    - gitlab://aeroplan/helm-charts:master/charts/cp-zookeeper-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-12-05T15:07:03.035137+01:00
