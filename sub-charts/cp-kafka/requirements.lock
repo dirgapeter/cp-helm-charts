@@ -1,0 +1,6 @@
+dependencies:
+- name: cp-zookeeper
+  repository: file://../cp-zookeeper
+  version: 0.1.0
+digest: sha256:34ba540e09b616fa89bac984e964390144c8212974b3492d6d3a081caedd3ecd
+generated: 2018-12-05T13:34:58.869243+01:00

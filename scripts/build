@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+BASEDIR=$(dirname $0)
+ROOTDIR=$BASEDIR/..
+
+$BASEDIR/clean
+
+helm dependency update $ROOTDIR
+helm package $ROOTDIR --destination $ROOTDIR
+ls $ROOTDIR/sub-charts | xargs -I % helm dependency update $ROOTDIR/sub-charts/%
+helm package $ROOTDIR/sub-charts/* --destination $ROOTDIR
+helm repo index --url gitlab://aeroplan/helm-charts:master $ROOTDIR
